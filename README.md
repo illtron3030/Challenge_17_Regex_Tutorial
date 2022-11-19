@@ -30,7 +30,7 @@ Anchors are used to “anchor” the regex match at a certain position.
 ### Quantifiers
 Quantifiers indicate numbers of characters or expressions to match. 
 `{}` is the quantifiers in this expressrion. 
-`{2,6}` here means to check if the eamil domain `.xx` has 2 to 6 letters.
+`{2,6}` here means to check if the email domain `.xx` has 2 to 6 letters.
 
 ### OR Operator
 OR Operator `|` indicates the logical "or".
@@ -39,7 +39,7 @@ It doesn't have one here but you will use it in building a logical “or” oper
 ### Character Classes
 Character classes distinguish between various characters, such as letters and numbers.
 `.` usually comes with `\`, otherwise it repsents a wildcard character.
-`\d` is shorthand for digit 0 to 9.
+`\d` is shorthand for numbers 0 to 9.
 
 ### Flags
 A flag is an optional parameter to a regex that modifies its behavior of searching. 
@@ -51,7 +51,7 @@ Grouping and capturing `()` indicates groups of expression characters.
 
 ### Bracket Expressions
 Bracket Expressions `[]` can match any values you put inside the `[]`.
-`[a-z0-9_\.-]` here can match with characters`a-z`, numbers`0-9` or symbols `_` `.` `-` that typically used in the email address.
+`[a-z0-9_\.-]` here can match with characters`a-z`, numbers`0-9` or symbols `_` `.` `-` that are usually used in the email address.
 
 ### Greedy and Lazy Match
 The quantifiers ` * + {}` are greedy operators, so they expand the match as far as they can through the provided text.
@@ -68,4 +68,4 @@ If we want to find matches for a pattern that are followed or preceded by anothe
 
 ## Author
 
-Ilya Feldman, Aquarius. <br>(replace with your information and a link to your profile)
+Ilya Feldman, Aquarius. <br>[My GitHub Profile](https://github.com/illtron3030)
