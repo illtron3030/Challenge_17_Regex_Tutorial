@@ -29,7 +29,7 @@ Anchors are used to “anchor” the regex match at a certain position.
 
 ### Quantifiers
 Quantifiers indicate numbers of characters or expressions to match. 
-`{}` is the quantifiers in this expressrion. 
+`{}` is the quantifiers in this expression. 
 `{2,6}` here means to check if the email domain `.xx` has 2 to 6 letters.
 
 ### OR Operator
