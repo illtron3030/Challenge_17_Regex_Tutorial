@@ -68,4 +68,4 @@ If we want to find matches for a pattern that are followed or preceded by anothe
 
 ## Author
 
-Ilya Feldman, Aquarius. <br>[My GitHub Profile](https://github.com/illtron3030)
+Ilya Feldman, Aquarius. <br>[My GitHub](https://github.com/illtron3030)
