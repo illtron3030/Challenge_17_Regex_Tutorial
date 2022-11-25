@@ -1,5 +1,5 @@
 # # Regex Tutorial: Matching An Email
-Regular expressions (Regex) are patterns used to match character combinations in strings. This tutorial explains the email regex by breaking down each part of the expression.
+Regular expressions (aka Regex) are patterns used to match character combinations in strings. This tutorial explains the email regex by breaking down each part of the expression.
 
 ## Summary
 The following expression can be used to verify that user input is a valid email address:
@@ -53,14 +53,14 @@ Grouping and capturing `()` indicates groups of expression characters.
 Bracket Expressions `[]` can match any values you put inside the `[]`.
 `[a-z0-9_\.-]` here can match with characters`a-z`, numbers`0-9` or symbols `_` `.` `-` that are usually used in the email address.
 
-### Greedy and Lazy Match
+### Greedy & Lazy Match
 The quantifiers ` * + {}` are greedy operators, so they expand the match as far as they can through the provided text.
 `\da-z\.-]+` can match with any numbers, characters, and symbol`.` or `-`.
 Lazy Match `?` means to match the shortest possible string. By adding the `?` after the `* + {}`, we tell it to repeat as few times as possible.
 ### Boundaries
 Boundaries`\b` represents an anchor matching positions where one side is a word character, and the other side is not a word character. It performs a "whole words only" search.
 
-### Back-references
+### Back-References
 Back-reference `\1` refers to a previous part of the matched regular expression.
 
 ### Look-ahead and Look-behind
